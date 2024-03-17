@@ -1,6 +1,6 @@
-package Controller;
+package com.employees.crud.Controller;
 
-import Model.Empleado;
+import com.employees.crud.Model.Empleado;
 import com.employees.crud.repository.EmpleadoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
