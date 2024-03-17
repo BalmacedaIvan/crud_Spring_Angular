@@ -1,10 +1,10 @@
 package com.employees.crud.repository;
 
-import Model.empleado;
+import com.employees.crud.Model.Empleado;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmpleadoRepository extends JpaRepository<empleado, Long> {
+public interface EmpleadoRepository extends JpaRepository<Empleado, Long> {
 
 }
