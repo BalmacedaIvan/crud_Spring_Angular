@@ -1,10 +1,10 @@
-package Model;
+package com.employees.crud.Model;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name="empleado")
-public class empleado {
+public class Empleado {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -16,10 +16,10 @@ public class empleado {
     @Column(name="email", length = 60, nullable = false, unique = true)
     private String email;
 
-    public empleado() {
+    public Empleado() {
     }
 
-    public empleado(Long id, String name, String lastname, String email) {
+    public Empleado(Long id, String name, String lastname, String email) {
         this.id = id;
         this.name = name;
         this.lastname = lastname;
